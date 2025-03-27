@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #44749d;
+            border: 0px;
+            margin: opx;
+        }
+
+        input {
+            width: 410px;
+            height:25px;
+            border-radius: 3%;
+        }
+
+        .container{
+            margin-top: 25px;
+            margin-left: 120px;
+            margin-right: 100px;
+            border: 2px solid #c6d4e1;
+            padding-top: 30px;
+            padding-left: 300px;
+            padding-right: 300px;
+            padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .buttons {
+            border-radius: 10%;
+            color:#ffffff;
+            background-color: #989898;
+            height: 35px;
+            width: 100px;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;           
+            background-color: #c6d4e1;
+            border:1px solid#c6d4e1;           
+            gap: 15px;
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="grupo-buttons">
+            <button type="submit" id="salvar" onclick="" class="buttons">Salvar</button>
+            <button type="submit" id="buscar" onclick="" class="buttons">Buscar</button>
+            <button type="submit" id="alterar" onclick="" class="buttons">Alterar</button>
+            <button type="submit" id="apagar" onclick="" class="buttons">Apagar</button>
+        </div>
+        <div class="form">
+            Id:<input type="number" id="id" placeholder="id">
+            Nome:<input type="text" id="nome" placeholder="Insirar seu nome">
+            E-mail:<input type="text" id="email" placeholder="Digite seu E-mail">
+        </div>
+    </div>
+</body>
+</html>
